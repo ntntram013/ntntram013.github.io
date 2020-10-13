@@ -1,0 +1,122 @@
+@font-face{
+	font-family: HelveticaNeue;
+	src: url(./fonts/HelveticaNeue.ttf);
+}
+@font-face{
+	font-family: HelveticaLC;
+	src: url(./fonts/HelveticaLC.ttf);
+}
+body{
+	font:HelveticaNeue;
+	background: url('../images/background.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	color: none;
+
+}
+.page{
+	background-color: #ffffff;
+}
+.branding{
+	transform: scale(0.9, 1.0);
+	color: #737373;
+
+}
+
+.check-feature, .dont-wait, .card-title-quote{
+	font:HelveticaLC;
+	transform: scale(1.0, 1.1);
+	color: #5790dc;
+	font-style: italic;
+	font-size: 20px;
+
+}
+.cont-button-try{
+	position: relative;
+	margin-bottom: 20px;
+	text-align: center;
+	
+}
+.give-a-try{
+	padding-top: 10px;
+	color: #003350;
+	line-height:0.4;
+}
+.btn-detail{
+
+	font-size-adjust: 0.32;
+	transform: scale(0.9, 1.0);
+}
+.button-subcribe{
+
+	margin: 30px;
+	border-bottom-left-radius: 80px 80px;
+	border-top-left-radius: 80px 80px;
+	border-bottom-right-radius: 80px 80px;
+	border-top-right-radius: 80px 80px;
+	line-height:0.9;
+	
+	box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.5);
+	background-image: linear-gradient(#b2ddf6, #9bd0ef, #51a2f6);
+}
+
+.check-feature{
+	text-align: center;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	background: url('../images/arrow-down-left.png') no-repeat right bottom;
+	background-size: contain;
+	
+}
+.feature{
+	font-size: small;
+}
+.dont-wait{
+	text-align: center;
+	padding-top: 40px;
+	padding-left: 100px;
+	background: url('../images/arrow-down-right.png') no-repeat left top;
+	background-size: contain;
+	
+}
+.bottom{
+	text-align: left;
+	background: url('../images/background-bottom.jpg');
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.quote-text{
+	padding: 20px;
+	background-color: #ebebeb;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-left-color: #cbcbcb;
+	border-top-color: #cbcbcb;
+	border-right: none;
+	border-bottom: none;
+}
+.quote-author{
+	margin-top: 0;
+	padding-right: 35px;
+	margin-right: 20px;
+	background: url('../images/quote-author.jpg') no-repeat right top;
+	background-size: contain;
+}
+.icon{
+	margin: 1px;
+}
+.footer{
+	background-color: #424141;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	color: #000000;
+}
+a{
+	color: #000000;
+}
+
